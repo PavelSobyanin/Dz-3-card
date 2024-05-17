@@ -35,6 +35,7 @@
     "build": "webpack --mode production",
     "lint": "eslint . --fix",
     "test": "jest --testPathPattern=./src/",
-    "e2e": "jest --testPathPattern=./e2e/"
+    "e2e": "jest --testPathPattern=./e2e/",
+    "coverage": "jest --coverage"
   }
 }
